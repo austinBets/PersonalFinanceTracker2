@@ -1,21 +1,16 @@
 {
-  "name": "personalfinancetracker2",
+  "name": "server",
   "version": "1.0.0",
-  "description": "A personal Finance tracker",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
     "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
     "pg": "^8.12.0"
-  },
-  "devDependencies": {
-    "jest": "29.7.0"
   }
 }
