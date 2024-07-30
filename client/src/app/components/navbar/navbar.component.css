@@ -1,0 +1,118 @@
+/* component-name.component.css or component-name.component.scss */
+
+/* Navbar container */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    background-color: #63a150; /* Adjust as needed */
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    z-index: 50;
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 auto;
+}
+
+/* Logo styling */
+.logo {
+    width: 1.5rem; /* Adjust as needed */
+    height: auto;
+}
+
+/* Toggle button for mobile view */
+.navbar_toggle {
+    display: none; /* Initially hidden; shown on mobile */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #fff;
+}
+
+/* Navbar menu */
+.navbar_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1; /* Allows the menu to take available space */
+}
+
+.navbar_item {
+    margin: 0 20px; /* Space between items */
+}
+
+.navbar_links {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar_links:hover {
+    color: #b9b9b9; /* Hover effect */
+}
+
+/* Buttons */
+.navbar__btn {
+    margin-left: auto;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .navbar_toggle {
+        display: flex;
+    }
+
+    .navbar_menu {
+        display: none; /* Initially hidden */
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70px; /* Adjust based on navbar height */
+        left: 0;
+        background-color: #333;
+        text-align: center;
+    }
+
+    .navbar_menu.active {
+        display: flex;
+    }
+
+    .navbar_item {
+        margin: 10px 0;
+    }
+
+    .navbar__btn {
+        margin: 10px 0;
+    }
+}

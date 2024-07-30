@@ -1,0 +1,1 @@
+//Contains the neccessary SQL queries. Then export them to other parts of the application.

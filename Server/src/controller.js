@@ -1,1 +1,1 @@
-//
+//will control how the SQL queries defined in queries.js are utilized in the application 
