@@ -1,0 +1,11 @@
+<div class="pricing-grid">
+    <div class="pricing-card" *ngFor="let plan of pricingPlans">
+      <h2>{{ plan.title }}</h2>
+      <p>{{ plan.description }}</p>
+      <p class="price">{{ plan.price }}</p>
+      <ul class="features-list">
+        <h2 class="title">Features</h2>
+        <li *ngFor="let feature of plan.features">{{ feature }}</li>
+      </ul>
+    </div>
+  </div>
