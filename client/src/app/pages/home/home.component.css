@@ -1,12 +1,16 @@
 .container {
+    position: relative;
     width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to top, #e0e0e0 0%, #4e803f 100%);
 }
 
+/* background-image: linear-gradient(to top, #4e803f 0%, #e0e0e0 100%); */
 /* .container > *:not(:last-child)  Example value created */ 
 app-navbar {
      margin-bottom: 20px; /*Adjust the value as needed */

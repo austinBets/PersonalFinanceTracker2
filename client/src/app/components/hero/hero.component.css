@@ -1,7 +1,3 @@
-.main{
-    background-color: #63a150;
-}
-
 .main__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -9,8 +5,8 @@
     justify-self: center;
     height: 70vh;
     width: 100%;
-    background-image: linear-gradient(to top, #4e803f 0%, #63a150 100%);
-    background-color: #63a150;
+    /* background-image: linear-gradient(to top, #4e803f 0%, #63a150 100%); */
+    /* background-color: #63a150; */
     overflow: hidden; /* Add this if there are child elements causing overflow */
     box-sizing: border-box; /* Ensure padding and border are included in width/height */
 }
