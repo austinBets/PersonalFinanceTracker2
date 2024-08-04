@@ -1,0 +1,51 @@
+* {
+    background-color: #dcdbdb;
+}
+
+.signIn-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: none;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+/* Handing the paragrah and link to forgotten password page.*/
+.signIn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.signIn-group p {
+    margin: 0;
+    color: #757575;
+}
+
+/* Handle the sign In button*/
+.button {
+    border-radius: 3px;
+    border: none;
+    background-color: #63a150;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.button:hover {
+    background-color: #558a45;
+}
+
+/* Handing the logo input */
+.register-header {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
+  
+
